@@ -1,0 +1,16 @@
+{
+  "name": "sourceq",
+  "version": "0.0.1",
+  "keywords": ["source", "query", "valve", "tf2", "half-life"],
+  "contributors": "Ryan Olds <ryanrolds@gmail.com>",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "",
+    "expect.js": ""
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js --reporter spec"
+  }
+}
