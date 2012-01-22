@@ -4,7 +4,7 @@
   "keywords": ["source", "query", "valve", "tf2", "half-life"],
   "contributors": "Ryan Olds <ryanrolds@gmail.com>",
   "dependencies": {
-    
+    "jspack": ""
   },
   "devDependencies": {
     "mocha": "",

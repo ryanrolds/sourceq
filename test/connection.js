@@ -9,16 +9,8 @@ var host = 'cDS.game.nfoservers.com';
 var port = 27015;
 
 describe('client', function() {
-  it('should take host port', function() {
-    var client = new sq(host, port);
-    client.host.should.equal(host);
-    client.port.should.equal(port);
-    client.close();
-  });
-
-  /*
   it('should get info', function(done) {
-    this.timeout(10000);
+    //this.timeout(10000);
     var client = new sq(host, port);
     client.getInfo(function(error, result) {
       should.not.exist(error);
@@ -27,6 +19,7 @@ describe('client', function() {
     });
   });
 
+  /*
   it('should challenge', function(done) {
     this.timeout(10000);
     var client = new sq(host, port);
@@ -37,7 +30,6 @@ describe('client', function() {
       done();
     });
   });
-  */
 
   it('should get players', function(done) {
     this.timeout(10000);
@@ -50,4 +42,5 @@ describe('client', function() {
       done();
     });
   });
+  */
 });
