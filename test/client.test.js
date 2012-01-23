@@ -14,8 +14,7 @@ describe('client', function() {
     var client = new sq(host, port);
     client.getInfo(function(error, result) {
       should.not.exist(error);
-      console.log(result);
-      //result.type.should.equal('I');
+      result.type.should.equal('I');
       done();
     });
   });
@@ -31,6 +30,7 @@ describe('client', function() {
       done();
     });
   });
+  */
 
   it('should get players', function(done) {
     this.timeout(10000);
@@ -39,9 +39,8 @@ describe('client', function() {
       console.log(error, result);
 
       should.not.exist(error);
-      result.type.should.equal('D');
+      result.type.should.equal('A');
       done();
     });
   });
-  */
 });
