@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "keywords": ["source", "query", "valve", "tf2", "half-life"],
   "contributors": "Ryan Olds <ryanrolds@gmail.com>",
+  "main": "./index.js",
   "dependencies": {
     "bufferpack": ""
   },
