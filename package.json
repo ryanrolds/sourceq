@@ -4,11 +4,11 @@
   "keywords": ["source", "query", "valve", "tf2", "half-life"],
   "contributors": "Ryan Olds <ryanrolds@gmail.com>",
   "dependencies": {
-    "jspack": ""
+    "bufferpack": ""
   },
   "devDependencies": {
     "mocha": "",
-    "expect.js": ""
+    "should": ""
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.js --reporter spec"
